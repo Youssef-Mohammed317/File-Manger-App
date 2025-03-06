@@ -6,8 +6,8 @@
 
 ### 1️⃣ استنساخ المستودع
 ```sh
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/Youssef-Mohammed317/File-Manger-App.git
+cd File-Manger-App
 ```
 استبدل `<repo-url>` برابط المستودع و `<project-folder>` باسم مجلد المشروع.
 
@@ -30,6 +30,13 @@ php artisan key:generate
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+```
+
+```
+MAIL_MAILER=your_mailer
+MAIL_SCHEME=null
+MAIL_HOST=127.0.0.1
+MAIL_PORT=1025
 ```
 
 ### 📦 تشغيل المهاجرات
